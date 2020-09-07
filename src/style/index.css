@@ -66,3 +66,39 @@ header span {
 main {
   padding: 0 260px;
 }
+
+.description {
+  display: flex;
+  justify-content: space-between;
+}
+
+figure {
+  margin: 30px 0;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+figure:first-child {
+  margin-right: 20px;
+}
+
+figure img {
+  margin: 15px 0;
+}
+
+figcaption {
+  color: gray;
+  padding: 0 40px;
+}
+
+figure button {
+  border: 1px solid lightgray;
+  background-color: whitesmoke;
+  padding: 3px 12px;
+  margin: 70px 0 30px 0;
+}
