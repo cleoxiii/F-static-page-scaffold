@@ -62,3 +62,7 @@ header span {
   bottom: -12px;
   left: 6px;
 }
+
+main {
+  padding: 0 260px;
+}
